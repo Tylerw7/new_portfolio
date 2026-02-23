@@ -19,7 +19,7 @@ const projects = [
   },
   {
     title: 'C# Web-Crawler | Lookup',
-    description: 'Machine learning platform for predictive analytics and data visualization, processing millions of data points in real-time.',
+    description: 'Web Crawler made in C# that crawls websites and saves the links, title and descriptions in a MongoDB database for easy lookup.',
     tags: ['C#', '.NET', 'Console App', 'MongoDB'],
     gradient: 'from-purple-500 to-pink-600',
     color: "bg-purple-700",
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     title: 'SAAS TTS Generator',
-    description: 'Comprehensive social media management tool with scheduling, analytics, and multi-platform integration capabilities.',
+    description: 'SAAS product that takes transcriptions and turns them in to speech to be used as voice overs.',
     tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
     gradient: 'from-pink-500 to-red-600',
     color: "bg-yellow-400",
@@ -52,7 +52,7 @@ const projects = [
   },
   {
     title: 'RAG Chatbot | Full Next.js Website',
-    description: 'HIPAA-compliant patient management system with appointment scheduling, electronic health records, and telemedicine integration.',
+    description: 'LangGraph and Fastapi RAG chatbot for a construction company',
     tags: ['FastAPI', 'LangGraph', 'OpenAI', 'RAG'],
     gradient: 'from-cyan-500 to-blue-600',
     color: "bg-green-500",
