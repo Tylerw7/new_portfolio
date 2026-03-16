@@ -7,6 +7,39 @@ import { useRef } from 'react';
 
 const projects = [
   {
+    title: 'E-Commerce Platform',
+    description: 'A full-stack e-commerce solution with real-time inventory management, secure payment processing, and advanced analytics dashboard.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    gradient: 'from-blue-500 to-purple-600',
+    color: "bg-yellow-400",
+    preview: "https://precious-wettach-art.vercel.app/",
+    github: "https://github.com/Tylerw7/PreciousArtBackEnd",
+    image: "/images/pwa.jpg",
+    language: "JS"
+  },
+  {
+    title: 'RAG Chatbot | Full Next.js Website',
+    description: 'LangGraph and Fastapi RAG chatbot for a construction company',
+    tags: ['FastAPI', 'LangGraph', 'OpenAI', 'RAG'],
+    gradient: 'from-cyan-500 to-blue-600',
+    color: "bg-green-500",
+    preview: "https://www.cabinetrybywettach.com/",
+    github: "https://github.com/Tylerw7/CBW_RAG_BACKEND/blob/main/app/routes/agent.py",
+    image: "/images/rag_chatbot.jpg",
+    language: "FastAPI"
+  },
+  {
+    title: 'SAAS TTS Generator',
+    description: 'SAAS product that takes transcriptions and turns them in to speech to be used as voice overs.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    gradient: 'from-pink-500 to-red-600',
+    color: "bg-yellow-400",
+    preview: "https://echo-textai.vercel.app/",
+    github: "https://github.com/Tylerw7/BackEnd",
+    image: "/images/echotext.jpg",
+    language: "JS"
+  },
+  {
     title: 'Memory Manager in C',
     description: 'C Memory Manager is a project I worked on to create my own memory manager written in C. This project helped me to better understand how memory is stored in the HEAP.',
     tags: ['C', 'Pointers', 'Strctures', 'Memory Manager'],
@@ -29,17 +62,6 @@ const projects = [
     language: "C#"
   },
   {
-    title: 'SAAS TTS Generator',
-    description: 'SAAS product that takes transcriptions and turns them in to speech to be used as voice overs.',
-    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    gradient: 'from-pink-500 to-red-600',
-    color: "bg-yellow-400",
-    preview: "https://echo-textai.vercel.app/",
-    github: "https://github.com/Tylerw7/BackEnd",
-    image: "/images/echotext.jpg",
-    language: "JS"
-  },
-  {
     title: 'CNN Flower Classifier',
     description: 'This project is a deep learning-based flower classification system built using PyTorch and Transfer Learning with a pretrained ResNet50 model.',
     tags: ['PyTorch', 'TorchVision', 'Python'],
@@ -50,28 +72,7 @@ const projects = [
     image: "/images/pytorch_cnn.jpg",
     language: "PyTorch"
   },
-  {
-    title: 'RAG Chatbot | Full Next.js Website',
-    description: 'LangGraph and Fastapi RAG chatbot for a construction company',
-    tags: ['FastAPI', 'LangGraph', 'OpenAI', 'RAG'],
-    gradient: 'from-cyan-500 to-blue-600',
-    color: "bg-green-500",
-    preview: "https://www.cabinetrybywettach.com/",
-    github: "https://github.com/Tylerw7/CBW_RAG_BACKEND/blob/main/app/routes/agent.py",
-    image: "/images/rag_chatbot.jpg",
-    language: "FastAPI"
-  },
-  {
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution with real-time inventory management, secure payment processing, and advanced analytics dashboard.',
-    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    gradient: 'from-blue-500 to-purple-600',
-    color: "bg-yellow-400",
-    preview: "https://precious-wettach-art.vercel.app/",
-    github: "https://github.com/Tylerw7/PreciousArtBackEnd",
-    image: "/images/pwa.jpg",
-    language: "JS"
-  },
+  
   
 ];
 
