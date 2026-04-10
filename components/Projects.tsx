@@ -25,7 +25,7 @@ const projects = [
     color: "bg-yellow-400",
     preview: "https://tomsburg.vercel.app/",
     github: "Private Repo",
-    image: "/basic.png",
+    image: "/images/basic.png",
     language: "JS"
   },
   {
