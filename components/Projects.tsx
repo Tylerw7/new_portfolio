@@ -7,6 +7,17 @@ import { useRef } from 'react';
 
 const projects = [
   {
+    title: 'E-Commerce Platform',
+    description: 'A .NET MVC e-commerce solution with real-time inventory management, secure payment processing, and advanced analytics dashboard.',
+    tags: ['.NET', 'C#', 'Postgresql', 'CI/DI'],
+    gradient: 'from-blue-500 to-purple-600',
+    color: "bg-purple-700",
+    preview: "https://preciouswettachart.com",
+    github: "",
+    image: "/images/pwa.jpg",
+    language: "C#"
+  },
+  {
     title: 'RAG Chatbot | Full Next.js Website',
     description: 'LangGraph and Fastapi RAG chatbot for a construction company',
     tags: ['FastAPI', 'LangGraph', 'OpenAI', 'RAG'],
@@ -18,26 +29,15 @@ const projects = [
     language: "FastAPI"
   },
   {
-    title: 'Security Surveillance',
-    description: 'A website for a Security Surveillance company made with React and Next.jsg',
-    tags: ['Next.js'],
+    title: 'TCP Server',
+    description: 'A TCP server make from scratch',
+    tags: ['C++', 'CMake', 'CTest'],
     gradient: 'from-blue-500 to-purple-600',
-    color: "bg-yellow-400",
-    preview: "https://tomsburg.vercel.app/",
-    github: "Private Repo",
+    color: "bg-pink-400",
+    preview: "No Preview",
+    github: "https://github.com/Tylerw7/TCP_Server_CPP",
     image: "/images/basic.png",
-    language: "JS"
-  },
-  {
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution with real-time inventory management, secure payment processing, and advanced analytics dashboard.',
-    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    gradient: 'from-blue-500 to-purple-600',
-    color: "bg-yellow-400",
-    preview: "https://precious-wettach-art.vercel.app/",
-    github: "https://github.com/Tylerw7/PreciousArtBackEnd",
-    image: "/images/pwa.jpg",
-    language: "JS"
+    language: "C++"
   },
   {
     title: 'SAAS TTS Generator',
