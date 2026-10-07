@@ -7,6 +7,17 @@ import { useRef } from 'react';
 
 const projects = [
   {
+    title: 'TCP Server',
+    description: 'A TCP server make from scratch',
+    tags: ['C++', 'CMake', 'CTest'],
+    gradient: 'from-blue-500 to-purple-600',
+    color: "bg-pink-400",
+    preview: "No Preview",
+    github: "https://github.com/Tylerw7/TCP_Server_CPP",
+    image: "/images/dashapi.jpeg",
+    language: "C++"
+  },
+  {
     title: 'E-Commerce Platform',
     description: 'A .NET MVC e-commerce solution with real-time inventory management, secure payment processing, and advanced analytics dashboard.',
     tags: ['.NET', 'C#', 'Postgresql', 'CI/DI'],
@@ -28,17 +39,7 @@ const projects = [
     image: "/images/rag_chatbot.jpg",
     language: "FastAPI"
   },
-  {
-    title: 'TCP Server',
-    description: 'A TCP server make from scratch',
-    tags: ['C++', 'CMake', 'CTest'],
-    gradient: 'from-blue-500 to-purple-600',
-    color: "bg-pink-400",
-    preview: "No Preview",
-    github: "https://github.com/Tylerw7/TCP_Server_CPP",
-    image: "/images/basic.png",
-    language: "C++"
-  },
+
   {
     title: 'SAAS TTS Generator',
     description: 'SAAS product that takes transcriptions and turns them in to speech to be used as voice overs.',
