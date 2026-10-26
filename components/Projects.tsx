@@ -29,6 +29,17 @@ const projects = [
     language: "C#"
   },
   {
+    title: 'C++ | OpenGL | Game Engine',
+    description: 'Web Crawler made in C# that crawls websites and saves the links, title and descriptions in a MongoDB database for easy lookup.',
+    tags: ['C++', 'OpenGL', 'Graphics Engine', 'CMake'],
+    gradient: 'from-purple-500 to-pink-600',
+    color: "bg-pink-400",
+    preview: "https://github.com/Tylerw7/OpenGL_Basics/blob/main/src/main.cpp",
+    github: "https://github.com/Tylerw7/OpenGL_Basics/blob/main/src/main.cpp",
+    image: "/images/snake_game_pic.jpg",
+    language: "C++"
+  },
+  {
     title: 'RAG Chatbot | Full Next.js Website',
     description: 'LangGraph and Fastapi RAG chatbot for a construction company',
     tags: ['FastAPI', 'LangGraph', 'OpenAI', 'RAG'],
@@ -61,17 +72,6 @@ const projects = [
     github: "https://github.com/Tylerw7/Memory_Manager_Project/tree/main",
     image: "/images/c_mm.jpg",
     language: "C"
-  },
-  {
-    title: 'C# Web-Crawler | Lookup',
-    description: 'Web Crawler made in C# that crawls websites and saves the links, title and descriptions in a MongoDB database for easy lookup.',
-    tags: ['C#', '.NET', 'Console App', 'MongoDB'],
-    gradient: 'from-purple-500 to-pink-600',
-    color: "bg-purple-700",
-    preview: "https://github.com/Tylerw7/web_crawler",
-    github: "https://github.com/Tylerw7/web_crawler",
-    image: "/images/web-crawler.jpg",
-    language: "C#"
   },
   {
     title: 'CNN Flower Classifier',
