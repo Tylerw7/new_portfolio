@@ -30,7 +30,7 @@ const projects = [
   },
   {
     title: 'C++ | OpenGL | Game Engine',
-    description: 'Web Crawler made in C# that crawls websites and saves the links, title and descriptions in a MongoDB database for easy lookup.',
+    description: 'A retro Snake Game made from c++ and OpenGL. A game engine made from graphics rendering.',
     tags: ['C++', 'OpenGL', 'Graphics Engine', 'CMake'],
     gradient: 'from-purple-500 to-pink-600',
     color: "bg-pink-400",
